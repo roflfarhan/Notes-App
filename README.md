@@ -1,4 +1,4 @@
-# notes_app
+# Notes_app
 Notes application written in Python 3.8 & KivyMD
 
 ![](https://github.com/datahappy1/notes_app/blob/main/notes_app_recording.gif)
@@ -112,16 +112,3 @@ change in the spec file the line datas=[], to datas=[("notes_app/view/notes_view
 ```language="sh"
 (venv_notes_app) pyinstaller notes_linux.spec
 ```
-
-## useful links
-- app development 
-  - https://kivymd.readthedocs.io/en/latest/components/
-  - https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm
-  - https://github.com/HeaTTheatR/Kivy_MVC_Template/tree/main
-  - https://github.com/thebjorn/pydeps
-  - https://github.com/kivymd/KivyMD/blob/master/kivymd/icon_definitions.py
-  
-- building the app
-  - https://pyinstaller.org/en/stable/when-things-go-wrong.html
-  - https://dev.to/ngonidzashe/using-pyinstaller-to-package-kivy-and-kivymd-desktop-apps-2fmj
-  - https://github.com/devgiordane/kivy-md-build
